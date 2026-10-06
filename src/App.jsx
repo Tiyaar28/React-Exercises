@@ -80,25 +80,62 @@
 // }
 
 
-import UserCardComponent from "./Exer1";
-import { UserCardNamedComponent } from "./Exer1";
+// import UserCardComponent from "./Exer1";
+// import { UserCardNamedComponent } from "./Exer1";
 
 
 
-function UserCard() {
-  return (
-    <>
+// function UserCard() {
+//   return (
+//     <>
 
-    <UserCardComponent/>
-    <UserCardNamedComponent/>
+//     <UserCardComponent/>
+//     <UserCardNamedComponent/>
 
 
-    </>
-  )
+//     </>
+//   )
 
   
 
+// }
+
+
+// export default UserCard;
+
+// import Layout from "./Layout"
+
+// function App () {
+
+//   return (
+
+// <>
+
+
+//  <Layout/>
+
+
+// </>
+
+   
+//   )
+// }
+
+// export default App;
+
+
+import Blog from "./Ex2"
+
+function App () {
+
+  return (
+
+    <>
+
+    <Blog/>
+    
+    </>
+  )
 }
 
-
-export default UserCard;
+export default App;
